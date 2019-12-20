@@ -3,6 +3,7 @@ def prime?(n)
 if number > 1
   range = (start..number-1).to_a
   range.none? do |prime|
-    prime % n 
+    number % prime == 0
+    
   
   
