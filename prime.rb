@@ -1,5 +1,5 @@
 def prime?(n)
- prime = 2..(n-1)
+ range = (-1..-5).to_a
   prime.each do |num|
     if 
      n % num == 0
