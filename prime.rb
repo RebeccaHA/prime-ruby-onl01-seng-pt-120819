@@ -4,10 +4,11 @@ def prime?(n)
   prime.each do |num|
     if 
      n % num == 0
-     puts "true"
+    array << puts "true"
     else 
-     puts "false"
+    array << puts "false"
     end
+  array
   end
 end
   
