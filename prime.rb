@@ -1,8 +1,7 @@
 def prime?(n)
-  start = 2
-  if number > 0
-   range = (start..number-1).to_a
-     range.none? do |prime|
+  range = (2..n-1).to_a
+  if number > 1
+    range.none? do |prime|
       number % prime == 0
     end
   else
