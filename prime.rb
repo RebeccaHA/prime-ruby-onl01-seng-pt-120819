@@ -1,5 +1,6 @@
 def prime?(n)
  prime = 2..(n-1)
+ array = []
   prime.each do |num|
     if 
      num % num == 0
@@ -7,7 +8,6 @@ def prime?(n)
     else 
      puts "false"
     end
-  prime
   end
 end
   
