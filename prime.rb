@@ -5,7 +5,7 @@ def prime?(n)
      num % num == 0
      puts "true"
     else 
-      puts "false"
+     puts "false"
     end
   prime
   end
