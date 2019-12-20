@@ -1,10 +1,10 @@
 def prime?(n)
   (2..(n-1)).each do |num|
    if 
-     num % n == 0
-     return true
+     num % num == 0
+     puts "true"
     else 
-      return false
+      puts "false"
     end
   end
 end
