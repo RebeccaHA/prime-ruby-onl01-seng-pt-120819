@@ -3,7 +3,7 @@ def prime?(n)
  array = []
   prime.each do |num|
     if 
-     num % num == 0
+     n % num == 0
      puts "true"
     else 
      puts "false"
